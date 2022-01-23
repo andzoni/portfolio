@@ -43,6 +43,17 @@
       width: 150px;
     }
   }
+
+  .about-info {
+    grid-template-areas:
+      'bioimage'
+      'bio'
+      'exp1'
+      'exp2'
+      'exp3';
+
+    grid-template-columns: 1fr;
+  }
 }
 
 // Smarthphone
