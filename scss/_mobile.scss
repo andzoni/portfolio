@@ -48,7 +48,7 @@
     .portrait {
       background: $portrait-image-sm;
       width: 150px;
-      width: 150px;
+      height: 150px;
     }
   }
 
@@ -79,11 +79,22 @@
 
     .lg-heading {
       margin-top: 1rem;
-      font-size: 5rem;
+      font-size: 3rem;
     }
   }
 
   .projects {
     grid-template-columns: 1fr;
+  }
+
+
+  .boxes {
+    div {
+      padding: 0.3rem 0.5rem;
+
+      &:hover {
+        padding: 0.5rem 0.8rem;
+      }
+    }
   }
 }
