@@ -11,8 +11,11 @@ body {
   color: set-text-color($primary-color);
   height: 100%;
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Roboto Mono', monospace, sans-serif;
   line-height: 1.5;
+  align-items: center;
+  align-content: center;
+  text-align: center;
 }
 
 // Headings
