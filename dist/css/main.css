@@ -100,9 +100,7 @@ body {
   margin: 0;
   font-family: 'Roboto Mono', monospace, sans-serif;
   line-height: 1.5;
-  align-items: center;
-  align-content: center;
-  text-align: center; }
+  text-align: left; }
   body#bg-img {
     background: url(../img/background.png);
     background-attachment: fixed;
@@ -116,6 +114,11 @@ body {
       height: 100%;
       z-index: -1;
       background: rgba(35, 36, 43, 0.9); }
+
+#main {
+  align-items: center;
+  align-content: center;
+  text-align: center; }
 
 h1,
 h2,
