@@ -5,46 +5,41 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://kit.fontawesome.com/3ac8337874.js" crossorigin="anonymous"></script>
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
   <title>View My Projects</title>
 </head>
 <body>
-  <header>
-    <div class="menu-btn">
-      <div class="btn-line"></div>
-      <div class="btn-line"></div>
-      <div class="btn-line"></div>
+  <header class="main-header">
+    <div class="logo">
+      <a href="index.html">ANDZONI</a>
     </div>
 
-    <nav class="menu">
-      <div class="menu-branding">
-        <div class="portrait">
+    <input type="checkbox" class="menu-btn" id="menu-btn">
+    <label for="menu-btn" class="menu-icon">
+      <span class="menu-icon__line"></span>
+    </label>
 
-        </div>
-      </div>
-      <ul class="menu-nav">
-        <li class="nav-item">
-          <a href="index.html" class="nav-link">
-            Home
-          </a>
-        </li>
-        <li class="nav-item">
-          <a href="about.html" class="nav-link">
-            About Me
-          </a>
-        </li>
-        <li class="nav-item current">
-          <a href="projects.html" class="nav-link">
-            Projects
-          </a>
-        </li>
-        <li class="nav-item">
-          <a href="contacts.html" class="nav-link">
-            Contacts
-          </a>
-        </li>
-      </ul>
-    </nav>
+    <ul class="nav-links">
+      <li class="nav-link">
+        <a href="index.html">Home</a>
+      </li>
+      <li class="nav-link">
+        <a href="about.html">About</a>
+      </li>
+      <li class="nav-link current">
+        <a href="projects.html">Projects</a>
+      </li>
+      <li class="nav-link">
+        <a href="contacts.html">Contacts</a>
+      </li>
+    </ul>
   </header>
 
   <main id="projects">
@@ -60,6 +55,20 @@
         <a target='_blank' href="https://recipes-app-project.vercel.app/">
           <img src="./img/recipes-app-project.jpg" alt="Recipes App Project">
         </a>
+        <div class="pContainer">
+          <p>
+            My objective with this project was to practice my knowledge  within the following technologies:
+            <br />
+            <br />
+            - Use React-Redux library to manage state;
+            <br />
+            - Use a React Context API to manage state;
+            <br />
+            - Use or React Hook useState, useContext, useEffect;
+            <br />
+            - Create Custom Hooks;
+          </p>
+        </div>
         <a target='_blank' href="https://recipes-app-project.vercel.app/" class="btn-light">
           <i class="fas fa-eye"></i> Project
         </a>
@@ -72,6 +81,18 @@
         <a target='_blank' href="https://wallet-project.vercel.app/">
           <img src="./img/wallet-project.jpg" alt="Wallet Project">
         </a>
+        <div class="pContainer">
+          <p>
+            My objective with this project was to practice my knowledge  within the following technologies:
+            <br />
+            <br />
+            - Redux store in React applications;
+            <br />
+            - Redux - reducers, actions and dispatchers;
+            <br />
+            - Asynchronous actions in React application that uses Redux.
+          </p>
+        </div>
         <a target='_blank' href="https://wallet-project.vercel.app/" class="btn-light">
           <i class="fas fa-eye"></i> Project
         </a>
@@ -84,6 +105,17 @@
         <a target='_blank' href="https://starwars-hooks-project.vercel.app/">
           <img src="./img/starwars-hooks-project.jpg" alt="Starwars Hooks Project">
         </a>
+        <div class="pContainer">
+          <p>
+            My objective with this project was to practice my knowledge  within the following technologies:
+            <br />
+            <br />
+            - React Context API to manage state;
+            <br />
+            - React Hook useState/useContext/useEffect;
+            <br />
+          </p>
+        </div>
         <a target='_blank' href="https://starwars-hooks-project.vercel.app/" class="btn-light">
           <i class="fas fa-eye"></i> Project
         </a>
@@ -96,6 +128,23 @@
         <a target='_blank' href="https://pokemon-rtl-project.vercel.app/">
           <img src="./img/pokedex-rtl-project.jpg" alt="Pokedex RTL Project">
         </a>
+        <div class="pContainer">
+          <p>
+            My objective with this project was to practice my knowledge  within the following technologies:
+            <br />
+            <br />
+            - React-Testing-Library in automated tests;
+            <br />
+            - Simulate events, use selectors, test asynchronous logical flows;
+            <br />
+            - Tests that allow refactoring the structure of application components without needing to change them;
+            <br />
+            - API mocks using fetch;
+            <br />
+            - Test inputs.
+            <br />
+          </p>
+        </div>
         <a target='_blank' href="https://pokemon-rtl-project.vercel.app/" class="btn-light">
           <i class="fas fa-eye"></i> Project
         </a>
@@ -108,6 +157,21 @@
         <a target='_blank' href="https://online-store-project-nine.vercel.app/">
           <img src="./img/online-store-project.jpg" alt="Oline Store Project">
         </a>
+        <div class="pContainer">
+          <p>
+            My objective with this project was to practice my knowledge  within the following technologies:
+            <br />
+            <br />
+            - Understand what Agile Methods are;
+            <br />
+            - React (componentDidMount, shouldComponentUpdate, componentDidUpdate, componentWillUnmount, Props, BrowserRouter, Link, Route, Switch, Redirect);
+            <br />
+            - Ecommerce API (Mercado Livre) for product listing.
+            <br />
+            <br />
+            Ps: API in Portuguese.
+          </p>
+        </div>
         <a target='_blank' href="https://online-store-project-nine.vercel.app/" class="btn-light">
           <i class="fas fa-eye"></i> Project
         </a>
@@ -120,6 +184,20 @@
         <a target='_blank' href="https://movie-cards-project.vercel.app/">
           <img src="./img/movie-card-project.jpg" alt="Movie Card Project">
         </a>
+        <div class="pContainer">
+          <p>
+            My objective with this project was to practice my knowledge  within the following technologies:
+            <br />
+            <br />
+            - Use props.children to access the children of a React component and interact with them;
+            <br />
+            - Create navigation links in the application with the Link component;
+            <br />
+            - Create routes, mapping the URL path with the corresponding component, via Route;
+            <br />
+            - Use the BrowserRouter, Switch, and Redirect correctly;
+          </p>
+        </div>
         <a target='_blank' href="https://movie-cards-project.vercel.app/" class="btn-light">
           <i class="fas fa-eye"></i> Project
         </a>
@@ -132,6 +210,20 @@
         <a target='_blank' href="https://trivia-project-theta.vercel.app/">
           <img src="./img/trivia-project.jpg" alt="Trivia Project">
         </a>
+        <div class="pContainer">
+          <p>
+            My objective with this project was to practice my knowledge  within the following technologies:
+            <br />
+            <br />
+            - Working in teams using Kanban or Scrum effectively;
+            <br />
+            - Create a Store, Reducers, Actions, and Dispatchers using Redux in React applications;
+            <br />
+            - Connect Redux to React components;
+            <br />
+            - Create asynchronous actions in your React application that makes use of Redux.
+          </p>
+        </div>
         <a target='_blank' href="https://trivia-project-theta.vercel.app/" class="btn-light">
           <i class="fas fa-eye"></i> Project
         </a>
@@ -144,6 +236,16 @@
         <a target='_blank' href="https://social-media-sand.vercel.app/">
           <img src="./img/social-media-project.jpg" alt="Social Media Project">
         </a>
+        <div class="pContainer">
+          <p>
+            My objective with this project was to practice my knowledge  within the following technologies:
+            <br />
+            <br />
+            - Study a bit of Web Design, UX/UI.
+            <br />
+            - How to use Sass to improve my CSS skills.
+          </p>
+        </div>
         <a target='_blank' href="https://social-media-sand.vercel.app/" class="btn-light">
           <i class="fas fa-eye"></i> Project
         </a>
@@ -156,6 +258,16 @@
         <a target='_blank' href="https://bootstrap-project-chi.vercel.app/">
           <img src="./img/bootstrap-project.jpg" alt="Bootstrap Project">
         </a>
+        <div class="pContainer">
+          <p>
+            My objective with this project was to practice my knowledge  within the following technologies:
+            <br />
+            <br />
+            - Study a bit of Web Design, UX/UI.
+            <br />
+            - How to use Bootstrap to improve my CSS skills.
+          </p>
+        </div>
         <a target='_blank' href="https://bootstrap-project-chi.vercel.app/" class="btn-light">
           <i class="fas fa-eye"></i> Project
         </a>
@@ -168,7 +280,9 @@
   </main>
 
   <footer id="main-footer">
-    Copyright &copy; 2022
+    <p>
+      Copyright &copy; 2022
+    </p>
   </footer>
 
   
